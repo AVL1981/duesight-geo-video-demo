@@ -1,0 +1,84 @@
+{
+  "artifacts": {
+    "bewijs.html": "18dba5258d4956583559829729d3e9229faae7a0ecf25619bd50cde77903f967",
+    "favicon.svg": "9276316eb4b5fb99813a562b90dc576ade903e1b0b7f97b38a9c121b89898dee",
+    "gids.html": "e85efe0ecee02a478c364c88144b3b7bb526b8eff896e9d633ab8196d5eeb02a",
+    "index.html": "483bf9fcb2c779434e7d750179ce5e3c7382cf1ef75b45bec8e41fa3377b4509",
+    "robots.txt": "344397c29d77da020096aeb7242b4800f0587858d6a6b15451de1bc81a0d67e9",
+    "sitemap.xml": "da1a158291ccf77bc727b30d22a3a5b0d1d5f84aa0b1c1c857869c271af4e439",
+    "styles.css": "223238c56e25f9a7a9838d3172f778f6aff30621d7be95288abfbffb21294faf",
+    "werkwijze.html": "d6212c03a870a7b5b9703d38468f99b213b05535ecc2cc1ef9c6e68d7013d5cb"
+  },
+  "brand": "DueSight GEO Video — arctic",
+  "camera_rollen": [
+    "brand_anchor_hold",
+    "gimbal_dolly_in",
+    "lateral_gallery",
+    "macro_detail",
+    "pin_scrub_reveal",
+    "text_cascade",
+    "threshold_tracking"
+  ],
+  "contract": {
+    "per_pagina": {
+      "bewijs": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 1.81:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "gids": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 1.81:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "index": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 1.81:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "werkwijze": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 1.81:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "generated_at": "2026-07-08T16:28:06Z",
+  "paginas": [
+    "index",
+    "werkwijze",
+    "bewijs",
+    "gids"
+  ],
+  "schema": "duesight.directors_cut_build_receipt.v2",
+  "sectie_count": 21
+}

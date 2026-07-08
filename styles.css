@@ -51,6 +51,7 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.4rem); margin: 0 0 26px; }
 .dc-strip-venster { overflow-x: auto; }
 .dc-strip { display: flex; gap: 22px; width: max-content; padding: 18px 24px; }
 .dc-kaart { width: 280px; flex: none; border: 1px solid rgba(255,255,255,.12); border-radius: 12px; padding: 22px; background: rgba(255,255,255,.03); }
+a.dc-kaart { display: block; color: inherit; text-decoration: none; }
 .dc-kaart h3 { margin: 0 0 8px; font-family: inherit; font-size: 1.05rem; }
 .dc-js .dc-strip-venster, .dc-gsap .dc-strip-venster { overflow: hidden; }
 .dc-js .dc-strip-sectie, .dc-gsap .dc-strip-sectie { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }

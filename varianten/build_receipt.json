@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "favicon.svg": "1d7f4a2a24e24a2c5dc9141ea9ec8e69aa48120ceaeea57ff660e8daa083da7b",
+    "index.html": "a07eaab91e7e80f70795513016003b53da6daec54a3d8c25e98a576d6cff680a",
+    "robots.txt": "ee366e20ed5ea9e118444172fd2fbfd477968a388c1562a5d35d5976fb0003f6",
+    "sitemap.xml": "d63243d56c1beb316adc0967453a377f0489b8a403c1a08ffee3fe0fd643b3e4",
+    "styles.css": "3ace220f22fc3dd1f88ab8772640383a379917ad44f1842783a3e4509a18ec6b"
+  },
+  "brand": "Director's Cut — variant-vloot",
+  "camera_rollen": [
+    "brand_anchor_hold",
+    "lateral_gallery",
+    "text_cascade"
+  ],
+  "contract": {
+    "per_pagina": {
+      "index": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "generated_at": "2026-07-08T16:28:06Z",
+  "paginas": [
+    "index"
+  ],
+  "schema": "duesight.directors_cut_build_receipt.v2",
+  "sectie_count": 3
+}

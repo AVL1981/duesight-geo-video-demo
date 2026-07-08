@@ -1,0 +1,85 @@
+{
+  "artifacts": {
+    "bewijs.html": "94227dd983f220667f2a8996bc5b5ffbba1ccb6ee34398e59a0e90e4a5625767",
+    "favicon.svg": "1d7f4a2a24e24a2c5dc9141ea9ec8e69aa48120ceaeea57ff660e8daa083da7b",
+    "gids.html": "a7ee8026a54b37064c4b35f2596dc07fcecf2ec6afcd953f21c1e9a2afd01533",
+    "index.html": "32385831b321bb4785893d255e95520e40196177b3bca9a7d5f27b983ec68d21",
+    "robots.txt": "31f829ca67918c2746d5ae509d04565513ae80887d8dba8c3455376d19a22cf2",
+    "sitemap.xml": "c888143c19c51877ba490363d0391d4e30d8d0f18c346285fe9e5571ccfc9844",
+    "styles.css": "3ace220f22fc3dd1f88ab8772640383a379917ad44f1842783a3e4509a18ec6b",
+    "werkwijze.html": "d3da8be25d18e27c9a46ea86b261968fe0c775fc237e1eb152136e87d94d2fd4"
+  },
+  "brand": "DueSight GEO Video — middernacht",
+  "camera_rollen": [
+    "brand_anchor_hold",
+    "gimbal_dolly_in",
+    "lateral_gallery",
+    "macro_detail",
+    "parallax_establish",
+    "pin_scrub_reveal",
+    "text_cascade",
+    "threshold_tracking"
+  ],
+  "contract": {
+    "per_pagina": {
+      "bewijs": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "gids": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "index": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "werkwijze": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "generated_at": "2026-07-08T16:28:06Z",
+  "paginas": [
+    "index",
+    "werkwijze",
+    "bewijs",
+    "gids"
+  ],
+  "schema": "duesight.directors_cut_build_receipt.v2",
+  "sectie_count": 21
+}

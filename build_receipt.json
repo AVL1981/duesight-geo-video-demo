@@ -1,12 +1,13 @@
 {
   "artifacts": {
-    "bewijs.html": "da32fd5ca44967fc8b466d106c92b7eae1bee1e28c2dae21dae279923f50dc6f",
+    "bewijs.html": "1d2939b2227a68058109065f1e01c83d6d387d6fa07f3e22f952912ff48dc76d",
     "favicon.svg": "1d7f4a2a24e24a2c5dc9141ea9ec8e69aa48120ceaeea57ff660e8daa083da7b",
-    "index.html": "5f99204667810a6680c5f47ebf4e7015ccc031721bd14952cd640f3ecc01cb23",
+    "gids.html": "74ff975c25d2aa1b722918252a5fd04aa00e52017f5466eee7bd2ce5a77dc996",
+    "index.html": "b49cde0e1e24d16718d4fd1dce104e0da60aa582df3e9235e6df3aec4df647fb",
     "robots.txt": "f5ddb9caf423d47f4fdc414b220f708737e5a9587c85a26c7d62ac65574e98fd",
-    "sitemap.xml": "fa38187d880fabdade7fb4786519c0f50ceb5517a8f5276bc1946df2175b75b8",
-    "styles.css": "c64df682bc23ba8b8cf611385b342a2d1369a1067c24ea323f9acd40ed575264",
-    "werkwijze.html": "844ad9f785ef9718779e41a318845521b53dd14a43aca13a3b696c500318f32c"
+    "sitemap.xml": "5349aa7845f814d03579551195c68ba73577d9badaa5c9fe3d99126182012555",
+    "styles.css": "3ace220f22fc3dd1f88ab8772640383a379917ad44f1842783a3e4509a18ec6b",
+    "werkwijze.html": "61c079342e050550979421ed729adce66a63aeeae7439d95b030947049fb7a7d"
   },
   "brand": "DueSight GEO Video",
   "camera_rollen": [
@@ -16,11 +17,24 @@
     "macro_detail",
     "parallax_establish",
     "pin_scrub_reveal",
-    "text_cascade"
+    "text_cascade",
+    "threshold_tracking"
   ],
   "contract": {
     "per_pagina": {
       "bewijs": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "gids": {
         "block_count": 0,
         "findings": [
           {
@@ -59,12 +73,13 @@
     },
     "status": "PASS"
   },
-  "generated_at": "2026-07-08T16:09:32Z",
+  "generated_at": "2026-07-08T16:27:00Z",
   "paginas": [
     "index",
     "werkwijze",
-    "bewijs"
+    "bewijs",
+    "gids"
   ],
   "schema": "duesight.directors_cut_build_receipt.v2",
-  "sectie_count": 16
+  "sectie_count": 21
 }

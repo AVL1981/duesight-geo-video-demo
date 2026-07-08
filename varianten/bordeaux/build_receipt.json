@@ -1,0 +1,85 @@
+{
+  "artifacts": {
+    "bewijs.html": "8402e54f120465622bafb3a7bc819597cdc2081d296690efaa3bb46c0ca917ce",
+    "favicon.svg": "da394049bde56a580923a5cab848cdccca887c0ecfad9cf1149c6a13317ea1f2",
+    "gids.html": "28b2533656f940a2acacf2c031debea50eb1cea65101bf100eaedb650ed3775c",
+    "index.html": "5a3cbfb337ab9ceb7947191ae525eeaf74adcb0441312c1c687164d33b1fc582",
+    "robots.txt": "454990d8d16fb3c28c4ea46c620231ea537352a6a961af5950daa99df3aa465d",
+    "sitemap.xml": "0024896ed6007d892edfbeedd7d3a4640f3645e4c1c6325243ffe8c6158e4467",
+    "styles.css": "927a90911a44333bddc6a0213f8084f8820916e743dd9985edb6f81dfbb5787e",
+    "werkwijze.html": "882832a1a0788d1d2f7272926653eb0f9998be7a4385d3cba2b76ce135016b00"
+  },
+  "brand": "DueSight GEO Video — bordeaux",
+  "camera_rollen": [
+    "brand_anchor_hold",
+    "gimbal_dolly_in",
+    "lateral_gallery",
+    "macro_detail",
+    "parallax_establish",
+    "pin_scrub_reveal",
+    "text_cascade",
+    "threshold_tracking"
+  ],
+  "contract": {
+    "per_pagina": {
+      "bewijs": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 2.69:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "gids": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 2.69:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "index": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 2.69:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "werkwijze": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 2.69:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "generated_at": "2026-07-08T16:28:06Z",
+  "paginas": [
+    "index",
+    "werkwijze",
+    "bewijs",
+    "gids"
+  ],
+  "schema": "duesight.directors_cut_build_receipt.v2",
+  "sectie_count": 21
+}
