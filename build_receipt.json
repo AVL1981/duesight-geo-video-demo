@@ -1,0 +1,70 @@
+{
+  "artifacts": {
+    "bewijs.html": "da32fd5ca44967fc8b466d106c92b7eae1bee1e28c2dae21dae279923f50dc6f",
+    "favicon.svg": "1d7f4a2a24e24a2c5dc9141ea9ec8e69aa48120ceaeea57ff660e8daa083da7b",
+    "index.html": "5f99204667810a6680c5f47ebf4e7015ccc031721bd14952cd640f3ecc01cb23",
+    "robots.txt": "f5ddb9caf423d47f4fdc414b220f708737e5a9587c85a26c7d62ac65574e98fd",
+    "sitemap.xml": "fa38187d880fabdade7fb4786519c0f50ceb5517a8f5276bc1946df2175b75b8",
+    "styles.css": "c64df682bc23ba8b8cf611385b342a2d1369a1067c24ea323f9acd40ed575264",
+    "werkwijze.html": "844ad9f785ef9718779e41a318845521b53dd14a43aca13a3b696c500318f32c"
+  },
+  "brand": "DueSight GEO Video",
+  "camera_rollen": [
+    "brand_anchor_hold",
+    "gimbal_dolly_in",
+    "lateral_gallery",
+    "macro_detail",
+    "parallax_establish",
+    "pin_scrub_reveal",
+    "text_cascade"
+  ],
+  "contract": {
+    "per_pagina": {
+      "bewijs": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "index": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      },
+      "werkwijze": {
+        "block_count": 0,
+        "findings": [
+          {
+            "code": "contrast_cta_tekst",
+            "detail": "witte CTA-tekst vs accent 3.68:1 (< 4.5:1 — overweeg donkerder accent)",
+            "severity": "warn"
+          }
+        ],
+        "schema": "duesight.directors_cut_build_contract.v1",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "generated_at": "2026-07-08T16:09:32Z",
+  "paginas": [
+    "index",
+    "werkwijze",
+    "bewijs"
+  ],
+  "schema": "duesight.directors_cut_build_receipt.v2",
+  "sectie_count": 16
+}
