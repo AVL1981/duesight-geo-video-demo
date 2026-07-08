@@ -1,9 +1,12 @@
 {
   "artifacts": {
-    "bewijs.html": "6a8e5e246f37c8ce8a8c117a34ae51d971f095a9a7a14cabd06f913443e1bb91",
+    "assets/62597024-hero-pand.jpg": "6259702495716c91166061e7b67ed955b6ffd508babfa44cbbabddfc8a533d06",
+    "assets/75d713ae-ab-bron.jpg": "75d713aece72771298cd49e07ba73c86f852da7048966164e9d604db72554e13",
+    "assets/767ee620-ab-resultaat.jpg": "767ee6208d1733913b90fdb4db238fc296d7dba767ee2a00d090ae9d35936620",
+    "bewijs.html": "87fb59b84ab5861bfce3f2a305966efe31e8bc0e63f6b47cb132081bde38cfe6",
     "favicon.svg": "7c0b5d938916df36ed2b118578c294a7456375f3e0cfdaaf5759768bb200a650",
     "gids.html": "3c6986a2255c36059f9123dbe4dbad20b156700310777a1a6acad2a0226fa90c",
-    "index.html": "43229c120edf1483418fd1a4bbe57aa7fb7c4e37e19991d63b238d2429828c64",
+    "index.html": "8377deee5094e5be184c282210e984bbf038f7802874e209628370e100e91a64",
     "robots.txt": "30d82237ff51e2c98f5386a4868452717ad2b297fdb73d35698bf54b5c9b8499",
     "sitemap.xml": "d0a4fd85034c1730c8c55f4909a248b2b626f4ce38d8301fbf74d9232a2f1c3f",
     "styles.css": "2c9c337a4f028058066b0a1e6a60697c70357666c346a7b773ae79ba629c96df",
@@ -73,7 +76,7 @@
     },
     "status": "PASS"
   },
-  "generated_at": "2026-07-08T16:28:06Z",
+  "generated_at": "2026-07-08T16:51:54Z",
   "paginas": [
     "index",
     "werkwijze",
