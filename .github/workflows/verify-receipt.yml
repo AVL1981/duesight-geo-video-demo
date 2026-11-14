@@ -1,0 +1,17 @@
+name: Controle build-receipts
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reken alle hashes in build_receipt.json na
+        run: python3 .github/scripts/verify_receipt.py
