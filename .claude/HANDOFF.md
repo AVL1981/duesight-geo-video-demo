@@ -28,6 +28,8 @@ Eerste inrichting van de werkwijze. Aan de site zelf is niets veranderd.
 
 - `vendor/` (scripts en fonts) staat in geen enkele receipt, terwijl de
   README zegt dat de hashes over elk bestand gaan.
-- Elke receipt meldt dezelfde waarschuwing: witte CTA-tekst op de accentkleur
-  haalt 3,68:1 en niet de 4,5:1 voor contrast.
+- Elke receipt waarschuwt dat witte CTA-tekst op de accentkleur de 4,5:1
+  voor contrast niet haalt. De hoofdsite, de galerij en middernacht zitten
+  op 3,68:1; de andere negen varianten lager, tot 1,53:1 bij signaal. De
+  oplossing vraagt een herbouw; de uitwerking staat in issue #4.
 - Er is geen preview per pull request, omdat de site op GitHub Pages staat.
