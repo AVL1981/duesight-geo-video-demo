@@ -7,20 +7,20 @@ Bijgewerkt: 2026-11-14
 - De site staat live via GitHub Pages vanaf `main`: vier pagina's, de
   galerij en tien varianten.
 - Alle 126 hashes in de 12 receipts kloppen (nagerekend op 2026-11-14).
-- De ticket-werkwijze is toegevoegd: werkafspraken in `.claude/CLAUDE.md`,
-  een issue-sjabloon en een GitHub Action die de receipts narekent.
+- De ticket-werkwijze draait: het label `ready` bestaat en de geplande taak
+  "Tickets duesight-geo-video-demo" kijkt om de twee uur (07:43 tot 21:43
+  Nederlandse tijd) naar open issues met dat label. De werkafspraken staan
+  in `.claude/CLAUDE.md`; een GitHub Action rekent de receipts na.
 
 ## Laatste wijziging
 
-Eerste inrichting van de werkwijze. Aan de site zelf is niets veranderd.
+Issue #2: de werkafspraken onder Tickets beschrijven nu de tweeuurlijkse
+ronde en de labels `ready` en `bezig`, en verwijzen voor de prompt naar de
+geplande taak. Aan de site zelf is niets veranderd.
 
 ## Open punten voor de eigenaar
 
-1. Het label `ready` aanmaken in de repo.
-2. Op claude.ai/code/routines een geplande taak aanmaken met een
-   GitHub-trigger op "issue gelabeld" met label `ready`, voor deze repo.
-   De prompt staat in `.claude/CLAUDE.md` onder Tickets.
-3. Beslissen hoe tickets over site-inhoud lopen. Nu geldt: Claude voert ze
+1. Beslissen hoe tickets over site-inhoud lopen. Nu geldt: Claude voert ze
    niet uit en meldt welke herbouw nodig is, omdat de builder niet in deze
    repo staat.
 
